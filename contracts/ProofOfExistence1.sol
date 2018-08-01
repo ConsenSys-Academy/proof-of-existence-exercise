@@ -12,8 +12,8 @@ contract ProofOfExistence {
 
       // helper function to get a document's sha256
       // *read-only function*
-      function proofFor(string document) constant returns (bytes32) {
-        return sha256(document);
+      function proofFor(string document) view returns (bytes32) {
+        return sha256(abi.encodePacked(document));
       }
 
 }
