@@ -105,7 +105,7 @@ Truffle remembers which contracts it has migrated to the network, so if we want 
 ```
 $ truffle migrate --reset
 ```
-You can find more information about truffle migrations here.
+You can find more information about truffle migrations [here](https://truffleframework.com/docs/truffle/getting-started/running-migrations).
 
 ## Interacting with your Smart Contract
 
@@ -160,7 +160,7 @@ Exit the Truffle console and create a new file called ProofOfExistence2.sol:
 truffle(development)> .exit
 $ truffle create contract ProofOfExistence2
 ```
-Update the ProofOfExistence2 contract to match [this contract](./contract/ProofOfExistence2.sol). 
+Update the ProofOfExistence2 contract to match [this contract](./contracts/ProofOfExistence2.sol). 
 
 The main changes between the first version and this version are that we changed the “proof” variable to a bytes32 array called “proofs” and made it private. We also added a function called “hasProof” to check if a proof has already been stored in the array.
 
