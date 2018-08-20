@@ -224,7 +224,7 @@ var mnemonic = “amateur fan ... insect police”
 ```
 Truffle will use these words to access your wallet and deploy the contract.
 
-Deploying the contract requires us to make a transaction on the testnet, so we need some ether to pay for the transaction. You can get free Rinkeby ether by going to this website and following the instructions. Make sure you enter the Ethereum address for your 1st Metamask account.
+Deploying the contract requires us to make a transaction on the testnet, so we need some ether to pay for the transaction. You can get free Rinkeby ether by going to [this website](https://faucet.rinkeby.io/) and following the instructions. Make sure you enter the Ethereum address for your 1st Metamask account.
 
 
 Now that we have a testnet account with Ether, we need to configure Truffle to be able to deploy the contract.
