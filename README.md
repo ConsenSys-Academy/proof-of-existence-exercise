@@ -234,7 +234,7 @@ To deploy contracts to the testnet using Truffle without having to sync a local 
 Go to the Infura website and sign up for a free account. Save the Rinkeby test network URL that Infrua provides in a variable called infura in truffle-config.js.
 ```javascript
 // truffle-config.js
-var infura = https://rinkeby.infura.io/Umc...8z 
+var infura = "https://rinkeby.infura.io/Umc...8z"
 ```
 For Truffle to derive our ethereum address from the mnemonic, we need to install the Truffle HD wallet provider. In the terminal located in the proof-of-existence project root run:
 ```
