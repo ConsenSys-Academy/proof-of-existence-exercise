@@ -1,6 +1,6 @@
 pragma solidity ^0.4.22;
 
-contract ProofOfExistence {
+contract ProofOfExistence1 {
       // state
       bytes32 public proof;
 
