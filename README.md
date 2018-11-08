@@ -231,7 +231,7 @@ Now that we have a testnet account with Ether, we need to configure Truffle to b
 
 To deploy contracts to the testnet using Truffle without having to sync a local node, you can use Infura. Infura allows you to access a fully synced Ethereum node via their API. We will use their API to deploy our contracts to the Rinkeby testnet.
 
-Go to the Infura website and sign up for a free account. Save the Rinkeby test network URL that Infrua provides in a variable called infura in truffle-config.js.
+Go to the [Infura website](https://infura.io/) and sign up for a free account. Save the Rinkeby test network URL that Infrua provides in a variable called infura in truffle-config.js.
 ```javascript
 // truffle-config.js
 var infura = "https://rinkeby.infura.io/Umc...8z"
