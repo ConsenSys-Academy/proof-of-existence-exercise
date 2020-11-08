@@ -121,7 +121,7 @@ truffle(development)>
 ```
 On the first line enter:
 ```
-var poe = ProofOfExistence1.at(ProofOfExistence1.address)
+var poe = await ProofOfExistence1.at(ProofOfExistence1.address)
 ```
 This line says that the variable “poe” is an instance of ProofOfExistence1.sol found at the address that we just deployed.
 
@@ -174,7 +174,7 @@ $ truffle console
 ```
 Save the deployed contract
 ```
-truffle(development)> var poe = ProofOfExistence2.at(ProofOfExistence2.address)
+truffle(development)> var poe = await ProofOfExistence2.at(ProofOfExistence2.address)
 ```
 We can check for a proof.
 ```
